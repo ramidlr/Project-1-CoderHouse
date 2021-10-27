@@ -1,0 +1,100 @@
+*
+body
+{
+   font-family: Montserrat, sans-serif;
+   background-image: linear-gradient(180deg, #f5dcc0, #f7f1eb);
+}
+
+#header {
+  padding: 5px;
+  text-align: center;
+}
+
+#searchbar {
+  text-align: right;
+  align-content:flex-end;
+}
+
+h1 {
+  position: center;
+  }
+
+h1:hover {
+  text-decoration-line: underline;
+}
+
+#formulario {
+  text-align: center;
+  display: none;
+}
+
+#formulariodiv {
+  text-align: center;
+  align-content: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+.boxServicios, .boxServiciosDos, .boxServiciosTres {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.containerFullCard {
+  width: 245px;
+  border: 2px solid rgb(100, 96, 96);
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+   }
+
+.containerFullCard:hover {
+    color: rgb(165, 27, 165);
+    border-color: black;
+    border: 5px solid rgb(0, 0, 0);
+   }
+
+.cardContent {
+    padding: 10px;
+  }
+
+.cardText {
+    margin-bottom: 30px;
+  }
+
+ 
+.btnComprar {
+  text-align: center;
+  padding: 5px;
+  border-radius: 1px;
+}
+.btnComprar:hover {
+  opacity:initial;
+  background-color: black;
+  color: white;
+  text-decoration-line: underline;
+  border-color: white;
+}
+
+#footer {
+  max-height: inherit;
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#footer:hover {
+  text-decoration-line: underline;
+}
